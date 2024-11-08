@@ -1,0 +1,16 @@
+jmp Start
+nop
+nop
+nop
+nop
+Start:
+  li 0 R2
+  li 2 R1
+  li 4 R3
+  li 1 R4
+Iter:
+  add R2 R3 R2 
+  sub R1 R4 R1 
+  jnz Iter 
+Fin:
+  jmp Fin
