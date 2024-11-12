@@ -17,8 +17,8 @@
 **      07/11/2024 - Creacion del codigo
 **/
 
-#ifndef Label_H
-#define Label_H
+#ifndef DETECTIONS_H
+#define DETECTIONS_H
 
 #include <iostream>
 #include <regex>
